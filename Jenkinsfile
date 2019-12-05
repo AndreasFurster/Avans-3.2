@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test'){
       steps {
-        echo 'Hello Mr. Jenkins'
+        publishCoverage adapters: [opencoverAdapter(mergeToOneReport: true, path: 'Cobertura.xml')], sourceFileResolver: sourceFiles('NEVER_STORE')
       }
     }
 
