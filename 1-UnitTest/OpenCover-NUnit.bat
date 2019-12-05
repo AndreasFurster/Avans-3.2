@@ -76,7 +76,8 @@ exit /b %errorlevel%
 :RunReportGeneratorOutput
 "%ReportGeneratorExe%" ^
  -reports:"%~dp0\GeneratedReports\CoverageReport.xml" ^
- -targetdir:"%~dp0\GeneratedReports\ReportGenerator Output"
+ -targetdir:"%~dp0\GeneratedReports\ReportGenerator Output" ^
+ -reporttypes:HTML;Cobertura
 exit /b %errorlevel%
 
 :RunLaunchReport
