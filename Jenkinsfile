@@ -4,7 +4,7 @@ pipeline {
   stage ('Build')
   {
   steps{
-		msbuild '1-UnitTest\\UnitTest.sln'
+		msbuild.exe 1-UnitTest\\UnitTest.sln
 		}
   }
     stage('Test') {
