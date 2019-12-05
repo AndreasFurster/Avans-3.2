@@ -1,6 +1,10 @@
 pipeline {
   agent any
   stages {
+  stage ('Build')
+  {
+		msbuild '1-UnitTest\\UnitTest.sln'
+  }
     stage('Test') {
       steps {
         echo 'Hello Mr. Jenkins'
