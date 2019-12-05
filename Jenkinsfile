@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Test'){
+    stage('Test') {
       steps {
-        publishCoverage adapters: [opencoverAdapter(mergeToOneReport: true, path: 'Cobertura.xml')], sourceFileResolver: sourceFiles('NEVER_STORE')
+        echo 'Hello Mr. Jenkins'
+        bat '1-UnitTest\\OpenCover-NUnit.bat'
       }
     }
 
