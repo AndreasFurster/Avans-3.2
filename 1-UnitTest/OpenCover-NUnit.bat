@@ -1,4 +1,4 @@
-@ECHO OFF
+REM @ECHO OFF
 
 REM OpenCover-NUnit.bat
 
@@ -14,7 +14,7 @@ REM  Andrew Newton -
 REM   http://www.nootn.com.au/2014/01/code-coverage-with-opencover-example.html#.VxiNn_krLDc
 
 
-SET DllContainingTests=%~dp0AvansPeriode3\bin\Debug\AvansPeriode3.exe
+SET DllContainingTests=%~dp0UnitTesting\bin\Debug\UnitTesting.dll
 
 
 REM *** IMPORTANT - Change DllContainingTests variable (above) to point to the DLL 
@@ -40,9 +40,8 @@ REM Get OpenCover Executable (done this way so we dont have to change the
 REM code when the version number changes)
 for /R "%~dp0packages" %%a in (*) do if /I "%%~nxa"=="OpenCover.Console.exe" SET OpenCoverExe=%%~dpnxa
 
-REM Get Report Generator (done this way so we dont have to change the code 
-REM when the version number changes)
-for /R "%~dp0packages" %%a in (*) do if /I "%%~nxa"=="ReportGenerator.exe" SET ReportGeneratorExe=%%~dpnxa
+REM Get Report Generator (Fixed because of .net version currently.)
+SET ReportGeneratorExe=%~dp0packages\ReportGenerator.4.3.6\tools\net47\ReportGenerator.exe
 
 REM Create a 'GeneratedReports' folder if it does not exist
 if not exist "%~dp0GeneratedReports" mkdir "%~dp0GeneratedReports"
@@ -67,7 +66,7 @@ REM *** to check for test coverage
 "%OpenCoverExe%" ^
  -target:"%TestRunnerExe%" ^
  -targetargs:"\"%DllContainingTests%\"" ^
- -filter:"+[*]* -[*.Tests*]* -[*]*.*Config" ^
+ -filter:"+[*]* -[*.UnitTest*]* -[*]*.*Config -[nunit.*]*" ^
  -mergebyhash ^
  -skipautoprops ^
  -register:user ^
