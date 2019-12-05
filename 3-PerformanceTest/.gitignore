@@ -3,7 +3,6 @@
 /config.zip.bak.old
 /*.bak
 /.~lock.*#
-/config/
 /reports/
 /comparative-summary/
 /recorded-requests/
