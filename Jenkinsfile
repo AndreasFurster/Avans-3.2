@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Hello Mr. Jenkins'
-        bat '1-UnitTest\\OpenCover-NUnit.bat'
+        bat '\\1-UnitTest\\OpenCover-NUnit.bat'
       }
     }
 
