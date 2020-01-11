@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b1194bcc-44e0-4b34-a37b-46293bdcf776"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="DemoWebshop">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="30;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8498a162-9b0b-4354-be8b-c07976d0234a"
+		sx="1257"
+		sy="182"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="795c761f-cb40-46a9-bc5f-1c46a9c1ec89"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1227,175,62,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ico-logout
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Log out
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ico-logout
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://demowebshop.tricentis.com/logout
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext='Log out']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="db31f864-6090-468c-94e3-c162748421a6">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABDAN4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqt9t
+jWSYSZRYiAWKnHP4e9L9utwGJZxt+8DG2QPUjHA96V0VyvsWKKhkuoYj8xY4GTtQtge+BxTJ7nYr
+mNlYhFYDB6E4zmi4rMs0U2SRIoy8jbVHU1GLqEozbiNpwQykHPbgjNMLMmoqH7XB5ZcuQA20gqQQ
+fTHWm/brfnLsMHDZRvl+vHH40XDlfYsVT1S7ks7ZZIwpJcL8w9j/AIVcrM8Qf8eKf9dB/I1MnZGl
+BKVRJh5+sf8APrD+f/2VHn6x/wA+sP5//ZVp1FcytEisoBJdV59CQKOXzKVVP7K/r5lHz9Y/59Yf
+z/8AsqPP1j/n1h/P/wCyrSd1jQu7BVHUmoHvYliZ1DsVKjZt2tkkAcHHrRy+Ye168i/H/MqefrH/
+AD6w/n/9lR5+sf8APrD+f/2VW7a8S4kkj2PHJGfmRwMjgHPBPrT5bmKE4cnOM4VSxA9TjoKOXzD2
+v9xfj/mUfP1j/n1h/P8A+ypr3OrRozvbQhVBJOe3/fVaSzRu+1WDHaG49D0P6VTu7xHheNAzLJbu
+4bacdPpSa8yozu7ci/H/ADJ7CdrmzjmcAM2cgdOpFWKpaP8A8gyH/gX/AKEau1UdkZVUlNpdwooq
+tc3BjmjiDxxFwTukGQenAGRzz60yErlmiqslxLCimZVH7wKWHRh6gdvpUguoTGz7iApwQVIIPpg8
+0rhysmoqE3kAjaRn2qpAbcpBBPTIPNAu4djuWKhMbtylSPwPNMOV9iaioPtUTI5V9pUZO5COPXHG
+RStdxK7Jl2ZThgsbNjv2FAcrK88ErNMqxlg7RsGyMcEZHX2qSWGRpLoheJIgq89T83+Iq1RSsPmZ
+QmiuGyhWRl2AIEkCqDj+Ig5/mKQ20xQ/JgmCNcZHUE5FaFFFh87tYguVeSP5EyUdWAJHzYIPH/1+
+9Ml86YI4gK+U4YKzDLcEHpx39fyq1RTEmUmhllkMpjK5dMKSMgKepxx3pZ4JHjvAq5Mo+Tkc/Lir
+lFKwczvcB0rM8Qf8eKf9dB/I1p1meIP+PFP+ug/kaU/hZph/4sTTqrqLqkCksoxIpwWC5wQT1Ipn
+9rWP/Pf/AMcb/Cj+1rH/AJ7/APjjf4Ucy7iVKonflf3Ec17DcQkB442VlYB5U+bBzjgn0pksq3Le
+cpUBXhXAdWP+sHXBNT/2tY/89/8Axxv8Khe6nuLW3ka3VY5ZIiGWTcR86nkED9M01r1CacVZxsQz
+m7gvbu4tRG2ZEj2uuckhB6j1pltq0gu5TcWpXP7osGAXeucjJ4Hfv+daxtkPmZJ+eRZD9Rtx/wCg
+iqc0cOnvFI7nY900jEjOCUb0p9CFe9hkM8Vs6ETQSZhCHbKoCkE+p6c/pURkjW0jUSRMwtnjYLIp
+IOB789O1Xf7Wsf8Anv8A+ON/hUd1qdnJazIk2WZGAG09cfSouu50RjPmXusk0f8A5BkP/Av/AEI1
+dqlo/wDyDIf+Bf8AoRq7VR2RjW/iS9WFQXAcnDW6zwkcrxkH15OMVPRTITsUY7VlA2R7EMwcRkj5
+Bjn269hTpYZTM8irnDqwGfvYGDVyilYfMzNu1lKyTmPYWaJVRiMnDd8Z9addLI8c0zRGP5FRVYjJ
+5zzjNX2VWGGUEZzyKGUMMMAR6EUND5ylPFNcFn8ox4jKBSwyxJHoenFT28bJNcMwwHcFfcbQP6VP
+RTFzaWCikzRmgkWikzRmgBaKTNGaAFopM0ZoAWmyRxyrtkRXGc4YZpc0ZoBOxF9jtf8An2h/74FH
+2O1/59of++BUuaM0rIrnl3Ivsdr/AM+0P/fAqoyrptyjKWW0lJDg/cibtj0BOfbp0rQzTZFWWJ43
+GUcFWHqDTE23uOVldQyEMpGQQeDVK6aO4v7a2ASXaWkkU4OAFI5/E0yPS0iQxw3E0cZJOwbSB+Yz
+U1lY29iG8hCC+N7Eklsd/wBT0oES/Y7X/n2h/wC+BR9jtf8An2h/74FS5ozSsiueXcERY1CooVR0
+AGBS0maM0yRaKTNGaAFopM0ZoAWikzRmgBaKTNGaAEooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f7e038da-06f0-4ec8-a211-716ae0a0c191">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8ca9c25d-5f05-461e-801a-b91346a52dc6"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1236,175,53,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ico-login
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ico-login
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://demowebshop.tricentis.com/login
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext='Log in']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="7afa3aad-deb4-4854-9410-34d333b45bdd">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABDAMwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiorqRorZ5E
+xuUcZ6VE8lxA0ZkeKRXcJhUKnnuOTQNK5aoqI3MIk2FjnO3O07c+memabJeQRMVdyNvBO0kA+mcY
+zQFmT0VCbmNC+584baAqEnOM49/XimPeoGhCBmErFchTxjPtQHKyzRUP2qHzNm45ztztO3Ppnpmn
+R3EcrsqEkqSCdpwCDgjPSgLMkrK+3X8tzPHbQROInK88dzjv7Vq1maV/x/ah/wBdP6tUy3SM5bpB
+5+sf8+sP5/8A2VHn6x/z6w/n/wDZVp1FBK0jzKQMRvtGPTAP9aOXzHyPuUfP1j/n1h/P/wCyo8/W
+P+fWH8//ALKr0l1DExV2II64UkL9SOn40kt1DExDseBk4UkAe5HSlbzD2b7spefrH/PrD+f/ANlR
+5+sf8+sP5/8A2VX5JVW3aUMFULu3EEgD1xTHu4YywZjlRlsKTgepx0FO3mHs2+rKtjeXUt89tcxx
+oUTcQv4e59a0azLcg+IbgjkeUP5LWnREUNgooqO5l8iB5MZ2iqLSuSUVXhkmYq2+GaJs/PGMYP5n
+NNs71J4otxxI6/3SFJ7gHp+tBXKy1RUK3ULSBA/JOAdpwT6A9CaRbyBn2hzndsztOAfTOMZoFyvs
+T0VALyAuUDnIbYTtOAc4wTjFSRuH3YYNtYjgYx7UA01uMu42ltZEUbiwxj1qFrRYJ457WFAR8rqo
+AyvqPcVcopWGpNaGetqylo3hlky5bd5xCYJzyM/0ps5eO2niVN6tISJNwwMnoe+e35VpVH5EPm+b
+5SeZ/f2jP50WK5+5VeBt8rNCzgyhl2PtYfKBkcj+dKsdxiB3DvskJwxXcF2kc44NXaKZPMzPjtWU
++XJDLJ8+d/nEIRnOcZ/THWrNpG0cbhxgmR2H0LEip6KSVgcmwrM0r/j+1D/rp/Vq06xrK7gtb6+8
+99m6TjgnPJ9KmWjRlJ2aubNZyXsVvPcAlW3SZBWVPQDuw9Kk/tax/wCe/wD443+FH9rWP/Pf/wAc
+b/CnzLuWqkVuQvdRIbhUkhfzzkHzVwvAHOT7ds0pJihufLCzI6A7w4wvygc8+gB/Gpf7Wsf+e/8A
+443+FMe/0t5BI7IzjoxiJI/HFK67le1gOuJoRp7wNNEspi27GcA5x70zz7fNz/pEHzoAv7xeePrU
+n9rWP/Pf/wAcb/Cj+1rH/nv/AOON/hQ2n1EqkSrp5B1mXBBHkLyDkdFrXrJsZUn12eSJtyNHwcY/
+u1rU4mcNbhTJvMEZMIUuOgboafRVFlKO3BuUlitfs23O4/KN4Pb5Se+OtEVvKttZIVw0TAuMjj5S
+P61dopWK52UUhmEUNsYyBGwJk3DBAOeO+T9PWo4RLLbvCsR2tMx8zIwBvJ+ua0qRVVRhVAGc8Ciw
++czohLLDNCsRw0z/ALzIwBuP45q5bIyebuGN0hYfSpVVVBCqBk54HeloSFKVwopM0Zpki0UmaM0A
+LRSZozQAtFJmjNAC1E1rbMxZreIknJJQc1JmjNAWIvsdr/z7Q/8AfAo+x2v/AD7Q/wDfAqXNGaVk
+KyIvsdr/AM+0P/fAo+x2v/PtD/3wKlzRmiyCyIvsdr/z7Q/98Cj7Ha/8+0P/AHwKlzRmiyCyGRwQ
+xNujijQ4xlVAqSkzRmmMWikzRmgBaKTNGaAFopM0ZoAWikzRmgBKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="e16c5386-af69-42b6-9af4-dd6bf8c59a6b"
+	name="DemoWebshopRepository"
+	relativepath="DemoWebshopRepository.rxrep">
+		<codegen
+		classname="DemoWebshopRepository"
+		namespace="DemoWebshop">
+		</codegen>
+		<rootfolder
+		id="505cd157-f827-40d9-bf71-1e6dedeb8d6c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

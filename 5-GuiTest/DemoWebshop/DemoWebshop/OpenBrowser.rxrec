@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ba1edf6d-402a-470f-95ad-f76ab0cf9873"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="DemoWebshop">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://demowebshop.tricentis.com/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="e16c5386-af69-42b6-9af4-dd6bf8c59a6b"
+	name="DemoWebshopRepository"
+	relativepath="DemoWebshopRepository.rxrep">
+		<codegen
+		classname="DemoWebshopRepository"
+		namespace="DemoWebshop">
+		</codegen>
+		<rootfolder
+		id="505cd157-f827-40d9-bf71-1e6dedeb8d6c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

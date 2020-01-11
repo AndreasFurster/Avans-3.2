@@ -1,0 +1,307 @@
+﻿<repository
+id="e16c5386-af69-42b6-9af4-dd6bf8c59a6b"
+name="DemoWebshopRepository">
+	<codegen
+	classname="DemoWebshopRepository"
+	namespace="DemoWebshop">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="505cd157-f827-40d9-bf71-1e6dedeb8d6c"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="db975c3b-443e-4487-9e1b-3fc4ab0f40d7"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="b8d92380-0ecf-48f1-8d40-9ea33bca8adb"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8ca9c25d-5f05-461e-801a-b91346a52dc6"
+			name="LogIn"
+			refimgid="bcce04e9-4a5c-4ed9-835c-d0800ef1d947"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a[@innertext='Log in']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext='Log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4acc2288-d147-45e5-b8c7-6f17e8f02c76"
+			name="Email"
+			refimgid="372cc9a0-99ac-4a27-a5ba-dd2f15236825"
+			refpath="/dom[1]//input[#'Email']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//input[#'Email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="33cd732a-3940-4b99-8862-e6352077bea8"
+			name="Submit"
+			refimgid="609c8c13-fb95-4a5f-8bdf-d9472dd6e52a"
+			refpath="/dom[1]/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input[@type='submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]//form[@action='http://demowebshop.tricentis.com/login']/div[5]/input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e2ac6fb2-51cb-4c13-8e65-3c1532d3759f"
+			name="KaasmetuiensausAthotmailCom"
+			refimgid="0d6b7ae1-6625-4722-8f73-c05f2a1e1238"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a[@innertext='kaasmetuiensaus@hotmail.com']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext&gt;'kaasmetuiensaus@hotmail.c']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="795c761f-cb40-46a9-bc5f-1c46a9c1ec89"
+			name="LogOut"
+			refimgid="3a1afc4e-94dd-41bd-9dfd-a8625e428f33"
+			refpath="/dom[1]/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a[@innertext='Log out']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext='Log out']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f200793b-6911-4f6f-bbe6-33001e5cc962"
+			name="SmallSearchterms"
+			refimgid="508a0f8f-c876-42f5-8c55-5ce4c967b612"
+			refpath="/dom[1]//input[#'small-searchterms']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//input[#'small-searchterms']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="379ce825-b737-4699-83ca-c358762ba0e8"
+			name="TheProductHasBeenAddedToYour"
+			refimgid="e0d50205-cbc8-478c-8ccb-38959727946d"
+			refpath="/dom[@domain='demowebshop.tricentis.com']//div[#'bar-notification']/p[@innertext='The product has been added to your ']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//div[#'bar-notification']/p[@innertext&gt;'The product has been added']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e9d0e5fd-16e3-4475-952e-b8b6ea33028a"
+			name="ShoppingCart"
+			refimgid="0600ece5-2848-41ae-ad4f-4d0458d9963b"
+			refpath="/dom[1]//li[#'topcartlink']/a/span[@innertext='Shopping cart']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//li[#'topcartlink']/?/?/span[@innertext='Shopping cart']
+			</item>
+			<item
+			addcaps="unknown,webelement,strongtag"
+			capname="strongtag"
+			id="76678ae3-7dd7-4b24-99cd-eeecbceb862f"
+			name="StrongTag40400"
+			refimgid="c6a311fa-b5e4-409d-aa71-b2115b745977"
+			refpath="/dom[1]/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[2]/div[2]/div[1]/table/tbody/tr[4]/td[2]/span/span/strong[@innertext='404.00']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/div[2]/div[2]/div[1]/table/tbody/tr[4]/td[2]//strong[@innertext='404.00']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b236900a-b1b7-4629-9a26-8cd640bebf58"
+			isrooted="True"
+			name="AddToCart"
+			refpath="/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[6]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="00ab6878-8409-4489-8739-7d41d2eccd01"
+				name="Addtocart36EnteredQuantity"
+				refimgid="8abd3db5-8ecd-437c-93c5-ebaa21e0b031"
+				refpath="/dom[1]//form[#'product-details-form']/div/div[1]/div[2]/div[6]/div/input[@name='addtocart_36.EnteredQuantity']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[6]/?/?/input[@name='addtocart_36.EnteredQuantity']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="8c973260-1de0-4fd8-8420-d61ca8074709"
+				name="Addtocart43EnteredQuantity"
+				refimgid="6b266ac4-be5d-407b-9cd3-c0c53f0ab492"
+				refpath="/dom[1]//form[#'product-details-form']/div/div[1]/div[2]/div[6]/div/input[@name='addtocart_43.EnteredQuantity']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[6]/?/?/input[@name='addtocart_43.EnteredQuantity']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="01a85455-1893-4f0d-a1c2-55c47d9d6b04"
+				name="Button"
+				refimgid="94c68f3e-e7e8-4cb4-9c63-d4b8612a3d79"
+				refpath="/dom[1]//form[#'product-details-form']/div/div[1]/div[2]/div[6]/div/input[@type='button' and @value='Add to cart']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[6]/?/?/input[@value='Add to cart']
+				</item>
+				<basepath>
+					/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[6]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c034d8b4-b895-4719-a66b-e7308c61b5de"
+			name="Smartphone"
+			refimgid="b50da14a-de31-4693-bd81-d1beb0d64ca9"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]/div[1]/div/div/div[2]/h2/a[@innertext='Smartphone']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]//h2/a[@innertext='Smartphone']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="54478cbf-d3c1-46b4-80d4-b9e055278495"
+			name="BlueJeans"
+			refimgid="7eb7aaa2-7c0d-4a5f-8255-636ac80fbe3b"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]/div[1]/div/div/div[2]/h2/a[@innertext='Blue Jeans']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]//h2/a[@innertext='Blue Jeans']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e153eca8-ea1a-4136-b51e-50c27213f99e"
+			name="Updatecart"
+			refimgid="8f553c1d-89fd-48a2-abf8-74649b5a3731"
+			refpath="/dom[@domain='demowebshop.tricentis.com' and @caption>'Demo Web Shop. Shopping C']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[1]/div/input[@name='updatecart']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/div[1]/?/?/input[@name='updatecart']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="005a2bc6-6895-4abe-840d-295b2df09f2d"
+			name="DivTagYourShoppingCartIsE"
+			refimgid="9b5c51e5-4e69-49f6-a415-671b88a0881e"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div[2]/div[2]/div[@innertext='        Your Shopping Cart is empty!    ']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//div[@innertext&gt;'        Your Shopping Cart']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="8c604974-0e0d-45d9-8fa1-ea5a057ad6a2"
+			name="FooterMenuWrapper"
+			refimgid="056e967d-4358-4f77-b4cb-136c449d308b"
+			refpath="/dom[@domain='demowebshop.tricentis.com' and @caption>'Demo Web Shop. Shopping C']/body/div[4]/div[2]/div[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[2]/div[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="fb6e1501-b455-4907-a0be-a09d78a776db"
+			name="Removefromcart"
+			refimgid="608defcc-6677-4eea-b4e1-b8a9550181c2"
+			refpath="/dom[1]/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[1]/td[1]/input[@name='removefromcart']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c5afb92f-0e5d-485c-b165-cdfb39e0ff71"
+			name="Removefromcart1"
+			refimgid="2b754547-d133-453c-97b3-fee754247f59"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/descendant-or-self::*/div[@class='order-summary-content']/form[@action='http://demowebshop.tricentis.com/cart']/table[@class='cart']/tbody/tr[2]/td[1]/input[@name='removefromcart']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="c9ff4683-e1a4-4783-86b6-2a410aa41a8b"
+			name="H1TagSm"
+			refimgid="40e47092-f6f4-4af5-8797-0964b897fa50"
+			refpath="/dom[1]//form[#'product-details-form']/div/div[1]/div[2]/div[1]/h1[@innertext>'']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[1]/h1[@innertext&gt;'']
+			</item>
+			<basepath>
+				/dom[@domain='demowebshop.tricentis.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d7955e27-6d1f-4a16-978b-bb738c048555"
+		isrooted="True"
+		name="DemoWebShopGoogleChrome"
+		refimgid="4f26184c-6b15-4739-8c5a-51d9d075a46f"
+		refpath="/form[@title='Demo Web Shop - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="92cc01ae-b162-46c8-b70b-30c6da468479"
+			name="Pane"
+			refimgid="9eb4457f-8fa6-4ac1-a6d3-f30428242383"
+			refpath="/form[@title>'Demo Web Shop - Google Ch']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Demo Web Shop - Google Ch']/container[@accessiblename&gt;'Demo Web Shop - Google Chrome']/container/container[1]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="b7fb66c7-ddd5-4bbd-8e28-adaacc365bb1"
+			name="Pane1"
+			refimgid="0eaf65b1-953f-400a-a0cd-e46be791027e"
+			refpath="/form[@title>'Demo Web Shop. Login - Google']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Demo Web Shop - Google Ch']/container[@accessiblename&gt;'Demo Web Shop. Login - Google']/container/container[1]
+			</item>
+			<basepath>
+				/form[@title&gt;'Demo Web Shop - Google Ch']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIBSURBVDhPtY9NaNNgGMdzFjwI3oRNPOlhA2VK
+p01tk7X5aLfMj1Wrt22KBw/qJoyyavGmHZ511yrD08RSsLop7cGv4Q4eRF2yqYiIsHWpBTuY++99
+3iZtycSbD/wISd7fL0+E/zKhXTt164QC61gYliHD7AvhTZ/8w3n971k8qYHLxyONgGVIMHtDMGNH
+Ma8FV5yjW8ca0NAIkNwaYFtQwNQDWNBFOEpzHqt+vO/vYQG1GWD37i+4G5jRAExNxJ2DndOOKgjb
+Otq1PffP4VVUxCeDSUxeSI/Btu0Gn7M+fH/QjeXpw6g98WNt9khzi933hkGkBiN4Fwtg8UYSY1O/
+0DtR5UQzVSyXbWzMhYF5h7cyDnVs9/FAe3YILoVwN/8iiTEmkqzfqmMvPXQCPSwg4dnk/uc80JYd
+hEs4k+ABkglX1m5WMTk+h2unSnhxN8kDlaJY4YF96ThayeVyUC7noVzKI8I4c77ARS8TI50FHvCr
+0npIktCKLMvsWscVxgeKSMWLGNVn2bX+jAdovAHiEdtkND7FD5L09aONFIus1dZx/bQnICrSH2+g
+VGquO6LO4PbF18hceIkvH1aRTngCNN4AcTaa5AevqE8ZM6iUayj//P33AM0BI/jNG6GD9O8Ere6u
+f7U/v+poW2fH3rbhLkNa0ZTgxlDCt0RCK3VZEDYBu/TRLt4hrvUAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
