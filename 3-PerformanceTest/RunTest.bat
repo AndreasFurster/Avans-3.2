@@ -1,7 +1,7 @@
 set currentpath=%~dp0
 set reportpath=%currentpath%neoload-report
 
-"C:\Program Files\NeoLoad 7.0\bin\NeoLoadCmd.exe" ^
+"C:\Program Files\NeoLoad 7.1\bin\NeoLoadCmd.exe" ^
   -project "%currentpath%NeoLoad.nlp" ^
   -launch "scenario1" ^
   -testResultName "$Date{hh:mm - dd MMM yyyy} (build ${BUILD_NUMBER})" ^
