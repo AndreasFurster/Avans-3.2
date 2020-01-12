@@ -52,7 +52,7 @@
             }
           ],
           "resources": [
-            "neoload"
+            "nuget", "dotnet", "dotnet-standard"
           ],
           "artifacts": [
             {
@@ -139,7 +139,9 @@
               "path": "LoadTestResults/neoload-report/report.html"
             }
           ],
-          "resources": [],
+          "resources": [
+            "neoload"
+          ],
           "artifacts": [
             {
               "source": "3-PerformanceTest/neoload-report",
