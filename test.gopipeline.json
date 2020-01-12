@@ -167,8 +167,20 @@
           "environment_variables": [],
           "tabs": [
             {
-              "name": "ApiTest",
-              "path": "ApiTestResults/api-report/report.html"
+              "name": "HappyFlow",
+              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-HappyFlow-0-OK.txt"
+            },
+			{
+              "name": "HappyFlow",
+              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectPassword-0-OK.txt"
+            },
+			{
+              "name": "HappyFlow",
+              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectUsername-0-OK.txt"
+            },
+			{
+              "name": "HappyFlow",
+              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-SoapError-0-OK.txt"
             }
           ],
           "resources": [
@@ -177,7 +189,7 @@
           "artifacts": [
             {
               "source": "2-ApiTest/soapui-report",
-              "destination": "LoadTestResults",
+              "destination": "ApiTestResults",
               "type": "test"
             }
           ],
@@ -190,7 +202,9 @@
               "timeout": -1.0,
               "arguments": [
 				"-s\"TricentisTestSuite\"",
-				"tricentis-soapui-project.xml"
+				"tricentis-soapui-project.xml",
+				"-a",
+				"-f'TestResult'"
 			  ],
               "run_if": "passed",
               "type": "exec"
