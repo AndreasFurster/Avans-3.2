@@ -48,7 +48,7 @@
           "tabs": [
             {
               "name": "test-results",
-              "path": "ApiTestResults2/TestResult/"
+              "path": "ApiTestResults2/TestResult"
             },
             {
               "name": "test-01",
