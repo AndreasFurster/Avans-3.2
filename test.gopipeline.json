@@ -174,7 +174,7 @@
           "timeout": 0.0,
           "tasks": [
             {
-              "command": "DemoWebshop/DemoWebshop/bin/DemoWebshop.exe",
+              "command": "RunTest.bat",
               "working_directory": "5-GuiTest",
               "timeout": -1.0,
               "arguments": [],
