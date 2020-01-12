@@ -161,6 +161,41 @@
               "type": "exec"
             }
           ]
+        },
+		{
+          "name": "run-api-tests",
+          "environment_variables": [],
+          "tabs": [
+            {
+              "name": "ApiTest",
+              "path": "ApiTestResults/api-report/report.html"
+            }
+          ],
+          "resources": [
+            "soapui"
+          ],
+          "artifacts": [
+            {
+              "source": "2-ApiTest/soapui-report",
+              "destination": "LoadTestResults",
+              "type": "test"
+            }
+          ],
+          "run_instance_count": "0",
+          "timeout": 0.0,
+          "tasks": [
+            {
+              "command": "C:\SmartBear\SoapUI-5.5.0\bin\TestRunner.bat ",
+              "working_directory": "2-ApiTest",
+              "timeout": -1.0,
+              "arguments": [
+				"-s\"TricentisTestSuite\"",
+				"C:\Users\gocd\Documents\tricentis-soapui-project.xml"
+			  ],
+              "run_if": "passed",
+              "type": "exec"
+            }
+          ]
         }
       ]
     }
