@@ -166,20 +166,24 @@
           "name": "run-api-tests",
           "environment_variables": [],
           "tabs": [
+			{
+			 "name": "test-results",
+              "path": "TestResult/"
+			},
             {
-              "name": "result-HappyFlow",
+              "name": "test-01",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-HappyFlow-0-OK.txt"
             },
 			{
-              "name": "result-IncorrectPassword",
+              "name": "test-02",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectPassword-0-OK.txt"
             },
 			{
-              "name": "result-IncorrectUsername",
+              "name": "test-03",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectUsername-0-OK.txt"
             },
 			{
-              "name": "result-SoapError",
+              "name": "test-04",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-SoapError-0-OK.txt"
             }
           ],
