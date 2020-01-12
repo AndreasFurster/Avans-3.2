@@ -1,7 +1,7 @@
-#Testing
+# Testing
 Because its just one command in the command line and soap ui delivers its own batch files, we are using the batch file created by soapui.
 
-##steps
+## steps
 ` install soapui `
 
 *-f* is the path to put the testfiles
