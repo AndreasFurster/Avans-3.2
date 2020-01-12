@@ -19,11 +19,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:DemoWebshop.AddProduct.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="M:DemoWebshop.AddProduct.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:DemoWebshop.AddProduct.Instance"/>.
@@ -43,6 +38,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:DemoWebshop.AddProduct.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:DemoWebshop.ClearCart">
              <summary>
             The ClearCart recording.
@@ -56,11 +56,6 @@
         <member name="M:DemoWebshop.ClearCart.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:DemoWebshop.ClearCart.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:DemoWebshop.ClearCart.Start">
@@ -82,6 +77,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:DemoWebshop.ClearCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:DemoWebshop.CloseBrowser">
              <summary>
             The CloseBrowser recording.
@@ -95,11 +95,6 @@
         <member name="M:DemoWebshop.CloseBrowser.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:DemoWebshop.CloseBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:DemoWebshop.CloseBrowser.Start">
@@ -119,6 +114,11 @@
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:DemoWebshop.Code_Modules.UserCodeModule1">
@@ -144,14 +144,14 @@
             The class representing the DemoWebshopRepository element repository.
             </summary>
         </member>
-        <member name="P:DemoWebshop.DemoWebshopRepository.Instance">
-            <summary>
-            Gets the singleton class instance representing the DemoWebshopRepository element repository.
-            </summary>
-        </member>
         <member name="M:DemoWebshop.DemoWebshopRepository.#ctor">
             <summary>
             Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DemoWebshopRepository element repository.
             </summary>
         </member>
         <member name="P:DemoWebshop.DemoWebshopRepository.SelfInfo">
@@ -474,11 +474,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:DemoWebshop.Login.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="M:DemoWebshop.Login.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:DemoWebshop.Login.Instance"/>.
@@ -498,6 +493,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:DemoWebshop.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:DemoWebshop.Logout">
              <summary>
             The Logout recording.
@@ -511,11 +511,6 @@
         <member name="M:DemoWebshop.Logout.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:DemoWebshop.Logout.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:DemoWebshop.Logout.Start">
@@ -537,6 +532,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:DemoWebshop.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:DemoWebshop.OpenBrowser">
              <summary>
             The OpenBrowser recording.
@@ -550,11 +550,6 @@
         <member name="M:DemoWebshop.OpenBrowser.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:DemoWebshop.OpenBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:DemoWebshop.OpenBrowser.Start">
@@ -576,6 +571,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:DemoWebshop.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:DemoWebshop.Recording1">
              <summary>
             The Recording1 recording.
@@ -589,11 +589,6 @@
         <member name="M:DemoWebshop.Recording1.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:DemoWebshop.Recording1.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:DemoWebshop.Recording1.Start">
@@ -613,6 +608,11 @@
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:DemoWebshop.UserCodeModule1">

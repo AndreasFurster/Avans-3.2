@@ -5,7 +5,6 @@
 *.jpg
 *.rxuser
 *.pref
-*bin/
 *obj/
 *Reports/
 *.rxuser
