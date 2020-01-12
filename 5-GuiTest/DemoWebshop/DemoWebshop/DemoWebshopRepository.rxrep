@@ -205,25 +205,6 @@ name="DemoWebshopRepository">
 				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[2]/div[1]
 			</item>
 			<item
-			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
-			id="fb6e1501-b455-4907-a0be-a09d78a776db"
-			name="Removefromcart"
-			refimgid="608defcc-6677-4eea-b4e1-b8a9550181c2"
-			refpath="/dom[1]/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[1]/td[1]/input[@name='removefromcart']"
-			searchtimeout="30000ms">
-				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']
-			</item>
-			<item
-			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
-			id="c5afb92f-0e5d-485c-b165-cdfb39e0ff71"
-			name="Removefromcart1"
-			refimgid="2b754547-d133-453c-97b3-fee754247f59"
-			searchtimeout="30000ms">
-				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/descendant-or-self::*/div[@class='order-summary-content']/form[@action='http://demowebshop.tricentis.com/cart']/table[@class='cart']/tbody/tr[2]/td[1]/input[@name='removefromcart']
-			</item>
-			<item
 			addcaps="unknown,webelement,h1tag"
 			capname="h1tag"
 			id="c9ff4683-e1a4-4783-86b6-2a410aa41a8b"
@@ -232,6 +213,26 @@ name="DemoWebshopRepository">
 			refpath="/dom[1]//form[#'product-details-form']/div/div[1]/div[2]/div[1]/h1[@innertext>'']"
 			searchtimeout="30000ms">
 				/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[1]/h1[@innertext&gt;'']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ec8a24b8-4623-45b2-b223-5de64b0f8475"
+			name="Removefromcart"
+			refimgid="50a55a04-1b76-417c-ab7d-c3424efc09cf"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[1]/td[1]/input[@name='removefromcart']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8482310a-4d6b-4e30-ae83-0881d0544078"
+			name="Removefromcart1"
+			refimgid="c4a81e44-da5b-4984-9207-ec24d8ed5fc1"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/input[@name='removefromcart']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[2]/td[1]/input[@name='removefromcart']
 			</item>
 			<basepath>
 				/dom[@domain='demowebshop.tricentis.com']

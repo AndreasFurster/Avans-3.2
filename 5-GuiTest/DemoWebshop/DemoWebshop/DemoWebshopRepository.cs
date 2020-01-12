@@ -111,9 +111,9 @@ namespace DemoWebshop
             RepoItemInfo _updatecartInfo;
             RepoItemInfo _divtagyourshoppingcartiseInfo;
             RepoItemInfo _footermenuwrapperInfo;
+            RepoItemInfo _h1tagsmInfo;
             RepoItemInfo _removefromcartInfo;
             RepoItemInfo _removefromcart1Info;
-            RepoItemInfo _h1tagsmInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -136,9 +136,9 @@ namespace DemoWebshop
                 _updatecartInfo = new RepoItemInfo(this, "Updatecart", "body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/div[1]/?/?/input[@name='updatecart']", 30000, null, "e153eca8-ea1a-4136-b51e-50c27213f99e");
                 _divtagyourshoppingcartiseInfo = new RepoItemInfo(this, "DivTagYourShoppingCartIsE", "body/div[4]/div[1]/div[4]//div[@innertext>'        Your Shopping Cart']", 30000, null, "005a2bc6-6895-4abe-840d-295b2df09f2d");
                 _footermenuwrapperInfo = new RepoItemInfo(this, "FooterMenuWrapper", "body/div[4]/div[2]/div[1]", 30000, null, "8c604974-0e0d-45d9-8fa1-ea5a057ad6a2");
-                _removefromcartInfo = new RepoItemInfo(this, "Removefromcart", "body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']", 30000, null, "fb6e1501-b455-4907-a0be-a09d78a776db");
-                _removefromcart1Info = new RepoItemInfo(this, "Removefromcart1", "body/div[4]/div[1]/div[4]/descendant-or-self::*/div[@class='order-summary-content']/form[@action='http://demowebshop.tricentis.com/cart']/table[@class='cart']/tbody/tr[2]/td[1]/input[@name='removefromcart']", 30000, null, "c5afb92f-0e5d-485c-b165-cdfb39e0ff71");
                 _h1tagsmInfo = new RepoItemInfo(this, "H1TagSm", ".//form[#'product-details-form']/div/div[1]/div[2]/div[1]/h1[@innertext>'']", 30000, null, "c9ff4683-e1a4-4783-86b6-2a410aa41a8b");
+                _removefromcartInfo = new RepoItemInfo(this, "Removefromcart", "body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']", 30000, null, "ec8a24b8-4623-45b2-b223-5de64b0f8475");
+                _removefromcart1Info = new RepoItemInfo(this, "Removefromcart1", "body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[2]/td[1]/input[@name='removefromcart']", 30000, null, "8482310a-4d6b-4e30-ae83-0881d0544078");
             }
 
             /// <summary>
@@ -502,54 +502,6 @@ namespace DemoWebshop
             }
 
             /// <summary>
-            /// The Removefromcart item.
-            /// </summary>
-            [RepositoryItem("fb6e1501-b455-4907-a0be-a09d78a776db")]
-            public virtual Ranorex.InputTag Removefromcart
-            {
-                get
-                {
-                    return _removefromcartInfo.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Removefromcart item info.
-            /// </summary>
-            [RepositoryItemInfo("fb6e1501-b455-4907-a0be-a09d78a776db")]
-            public virtual RepoItemInfo RemovefromcartInfo
-            {
-                get
-                {
-                    return _removefromcartInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Removefromcart1 item.
-            /// </summary>
-            [RepositoryItem("c5afb92f-0e5d-485c-b165-cdfb39e0ff71")]
-            public virtual Ranorex.InputTag Removefromcart1
-            {
-                get
-                {
-                    return _removefromcart1Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Removefromcart1 item info.
-            /// </summary>
-            [RepositoryItemInfo("c5afb92f-0e5d-485c-b165-cdfb39e0ff71")]
-            public virtual RepoItemInfo Removefromcart1Info
-            {
-                get
-                {
-                    return _removefromcart1Info;
-                }
-            }
-
-            /// <summary>
             /// The H1TagSm item.
             /// </summary>
             [RepositoryItem("c9ff4683-e1a4-4783-86b6-2a410aa41a8b")]
@@ -570,6 +522,54 @@ namespace DemoWebshop
                 get
                 {
                     return _h1tagsmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Removefromcart item.
+            /// </summary>
+            [RepositoryItem("ec8a24b8-4623-45b2-b223-5de64b0f8475")]
+            public virtual Ranorex.InputTag Removefromcart
+            {
+                get
+                {
+                    return _removefromcartInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Removefromcart item info.
+            /// </summary>
+            [RepositoryItemInfo("ec8a24b8-4623-45b2-b223-5de64b0f8475")]
+            public virtual RepoItemInfo RemovefromcartInfo
+            {
+                get
+                {
+                    return _removefromcartInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Removefromcart1 item.
+            /// </summary>
+            [RepositoryItem("8482310a-4d6b-4e30-ae83-0881d0544078")]
+            public virtual Ranorex.InputTag Removefromcart1
+            {
+                get
+                {
+                    return _removefromcart1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Removefromcart1 item info.
+            /// </summary>
+            [RepositoryItemInfo("8482310a-4d6b-4e30-ae83-0881d0544078")]
+            public virtual RepoItemInfo Removefromcart1Info
+            {
+                get
+                {
+                    return _removefromcart1Info;
                 }
             }
 

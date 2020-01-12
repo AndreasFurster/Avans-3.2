@@ -139,24 +139,33 @@ X8qNif3F/KnUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
 UAFFFFABRRRQAUUUUAf/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="6;9"
+		loc="7;6"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="dafcad01-0717-43ed-8a3a-e7299e60e01f"
-		sx="416"
-		sy="528"
+		searchpropertyid="cf7ff8fd-ad51-468f-9f7e-180cecaca03f"
+		sx="417"
+		sy="525"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="fb6e1501-b455-4907-a0be-a09d78a776db"
+			id="ec8a24b8-4623-45b2-b223-5de64b0f8475"
 			sourcename="Recorder">
 				<element
 				capabilities="webelement, inputtag"
@@ -193,7 +202,7 @@ UAFFFFABRRRQAUUUUAf/2Q==
 					<attribute
 					name="tagvalue"
 					type="System.String">
-						1080379
+						1081033
 					</attribute>
 					<attribute
 					name="autofocus"
@@ -243,7 +252,7 @@ UAFFFFABRRRQAUUUUAf/2Q==
 					<attribute
 					name="value"
 					type="System.String">
-						1080379
+						1081033
 					</attribute>
 					<attribute
 					name="width"
@@ -256,7 +265,7 @@ UAFFFFABRRRQAUUUUAf/2Q==
 				</path>
 			</info>
 			<helperscreenshot
-			guid="202c093c-1f6d-4c3e-a098-07ea4ca818af">
+			guid="48e56814-06ae-4763-a518-f0aa90f5ff26">
 				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABgAF0DASIA
@@ -269,34 +278,43 @@ BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
 U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
 uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
 ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCnealD
-ZyiORZCSu75QP8faoP7dtf8AnnN+Q/xpl65TXbdh18vH/oVX8v8A89m/If4VGrvqdLVOCjeN7ruU
-/wC3bX/nnN+Q/wAavW063MCzICFbOAevXFQzuTZ3Ssd22M849jTdH/5BkP8AwL/0I01e9mTJQdPm
-iral2iiiqMAooooAKKKKACiiigDH1H/kNQY7R5/9CpbxZ7m4jSyuPLkEbsMn5ScqORg54Jqze6c1
-zcrOlwYmVdowvPfvn3qK1tJLXU4/MuGm3Qvjd2+ZPepV0zeo4yimnqlsNiufNtLtJcR3CxESRHgg
-gckD054PvVjR/wDkGQ/8C/8AQjTdT0xbwedGxjuVXar5OCOflI9Dk0mhSF9OCPG8bxMVZXGDnr/I
-ii2tyeZey5etzQoooqjIKKKKACiiigAooooAKp3v2iO5imt7czlY3XaHC4JKnqfoauUUAc5cyNDE
-9pqTrPNGwukZ2AVxxlR/4+AMV0EMMUClYYkjUnOEUAZ/Cmy2tvOwaa3ikYDALoCcfjUtABRRRQAU
-UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
+ZyiORZCSu75QP8faoP7dtf8AnnN+Q/xpl65TXbdh18vH/oVWri5S2VWnuSiswUEqMZ/Lio1d9Tpa
+pwUbxvddyD+3bX/nnN+Q/wAavW063MCzICFbOAevXFQSy+ZY3OHDjyiQw7gg0mj/APIMh/4F/wCh
+Gmr3syZKDp80VbUu0UUVRgFFFFABRRRQAUUUUAY+o/8AIagx2jz/AOhVNcCK4mtom+ZXkYMOmQY3
+qS905rm5WdLgxMq7Rhee/fPvUC2Utte2jyXbzAyEbWB4+RuetQrpnRPklFO+qWxBdBtHikhWNpLS
+ZWCsP+WJPY+oyRjnPXrV/R/+QZD/AMC/9CNLcX9qLe5J/frB8sqINx59vzz9DUOj289qZ43Ei2+Q
+YUcg7euQME8dKq2tzLn9zl8zSooopkBRRRQAUUUUAFFFFABUF3bC6RVMskRVtwaMgHoR3HoTU9FA
+GNdafNbOn2GFp4pEZLlGkAMnXBJPOfmPPsK1LRZFs4Vmz5ojUPk5Occ81LRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="8;6"
+		loc="6;8"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="92f07ef6-25c7-4f48-86ff-97912c0e01e7"
-		sx="418"
-		sy="665"
+		searchpropertyid="3e0ed51c-b07c-418b-b340-62eba378b3b7"
+		sx="416"
+		sy="667"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="c5afb92f-0e5d-485c-b165-cdfb39e0ff71"
+			id="8482310a-4d6b-4e30-ae83-0881d0544078"
 			sourcename="Recorder">
 				<element
 				capabilities="webelement, inputtag"
@@ -333,7 +351,7 @@ UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
 					<attribute
 					name="tagvalue"
 					type="System.String">
-						1080380
+						1081034
 					</attribute>
 					<attribute
 					name="autofocus"
@@ -383,7 +401,7 @@ UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
 					<attribute
 					name="value"
 					type="System.String">
-						1080380
+						1081034
 					</attribute>
 					<attribute
 					name="width"
@@ -396,7 +414,7 @@ UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
 				</path>
 			</info>
 			<helperscreenshot
-			guid="ee1f85a7-6cb0-45ac-a359-6ce4cb4f78e1">
+			guid="1258f782-d195-43d6-adef-0bc177ac81a5">
 				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABgAF0DASIA
@@ -409,16 +427,25 @@ BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
 U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
 uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
 ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCnealD
-ZyiORZCSu75QP8faoP7dtf8AnnN+Q/xqO/YrrluQcHy8Z/76q3PLFbQtLNJIqLjJ3E+3ao1fU6Wq
-cFG8b3Xcg/t21/55zfkP8avW063MCzICFbOAevXFVmlWWxujHIJE8s4YNnse9Lo//IMh/wCBf+hG
-mr3syZKDp80VbUu0UUVRgFFFFABRRRQAUUUUAZGoAtrcAAyfLzj/AL6qW6fMcY2sP30XUf7a1Je6
-e1zcrOlwYWVdowOe/fPvVaexnhEUj30kqiaLKHOD86+9Qrp7HRPklFPm1SI7yA6RbTG0hMltMpDx
-jJMZx97Ppjrn86vaMc6XCR7/APoRqZ7yFZJYg2+WJN7Rpy2P8f8AEVR0qOVbtpYlljsZY96Rvtwp
-OCMAMcZyx7VVtbmXP7nKatFFFMgKKKKACiiigAooooAKjuIRcQ+WWZPmVgy4yCCCOvuKkooAyLnT
-5rQRTaf5k1wH/emRxukQ4yCT/ugVd0yOSKwjjlQxspbCF920ZOBnvgYq1RQAUUUUAFFFFABRRRQA
-UUUUAFFFFABRRRQAUUUUAFFFFAH/2Q==
+ZyiORZCSu75QP8faoP7dtf8AnnN+Q/xqO/YrrluQcHy8Z/76q/gf3pP++zUau+p0tU4KN43uu5U/
+t21/55zfkP8AGr1tOtzAsyAhWzgHr1xUEzH7JdrkkCM4yc9jSaP/AMgyH/gX/oRpq97MmSg6fNFW
+1LtFFFUYBRRRQAUUUUAFFFFAGRqALa3AAMny84/76pLu2+3XcUayPBIsTskgBypynuO2R+NWr3T2
+ublZ0uDCyrtGBz37596jtrWW21OPzbl590L43Z4+ZPc1Kumb1HGUU09UtiFLkrDc2t2dl35J4PSQ
+AH5lPQg+n19Kt6P/AMgyH/gX/oRpNUtrWWHfPIlvJ91JiQpB54z3HXj61HoErSadscKGicoSrBge
+/UfWnbW5HMvZ8vmaVFFFMzCiiigAooooAKKKKACql5FdGaOWz8neqMn70kDkqe3X7tW6KAOauXGl
+77OaQSEYuYZZMsS4I4I7ZIbv3rpaKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//
+2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"

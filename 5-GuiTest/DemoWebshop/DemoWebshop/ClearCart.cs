@@ -83,19 +83,28 @@ namespace DemoWebshop
             repo.ApplicationUnderTest.ShoppingCart.Click("26;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Removefromcart' at 6;9.", repo.ApplicationUnderTest.RemovefromcartInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Removefromcart.Click("6;9");
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Removefromcart' at 7;6.", repo.ApplicationUnderTest.RemovefromcartInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Removefromcart.Click("7;6");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Removefromcart1' at 8;6.", repo.ApplicationUnderTest.Removefromcart1Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Removefromcart1.Click("8;6");
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Removefromcart1' at 6;8.", repo.ApplicationUnderTest.Removefromcart1Info, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Removefromcart1.Click("6;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Updatecart' at 89;16.", repo.ApplicationUnderTest.UpdatecartInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Updatecart' at 89;16.", repo.ApplicationUnderTest.UpdatecartInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.Updatecart.Click("89;16");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n    \n    \nYour Shopping Cart is empty!    \n') on item 'ApplicationUnderTest.DivTagYourShoppingCartIsE'.", repo.ApplicationUnderTest.DivTagYourShoppingCartIsEInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n    \n    \nYour Shopping Cart is empty!    \n') on item 'ApplicationUnderTest.DivTagYourShoppingCartIsE'.", repo.ApplicationUnderTest.DivTagYourShoppingCartIsEInfo, new RecordItemIndex(7));
             Validate.AttributeEqual(repo.ApplicationUnderTest.DivTagYourShoppingCartIsEInfo, "InnerText", "\n    \n    \nYour Shopping Cart is empty!    \n");
             Delay.Milliseconds(100);
             
