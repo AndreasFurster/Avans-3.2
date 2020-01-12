@@ -31,6 +31,15 @@
             Constructs a new instance.
             </summary>
         </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.EmailModule.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Sends the report via email after the test run has completed. Use this module in
+            the TearDown of your test case to ensure that it is executed even on failing test runs.
+            </summary>
+            <remarks>You should not call this method directly. Instead, pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.Subject">
             <summary>
             Gets or sets the value of the email subject.
@@ -104,15 +113,6 @@
             Don't set or set to an empty string to use the default stylesheet.
             See https://www.ranorex.com/blog/ranorex-report-to-pdf-conversion#stylesheet
             </summary>
-        </member>
-        <member name="M:Ranorex.AutomationHelpers.Modules.EmailModule.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Sends the report via email after the test run has completed. Use this module in
-            the TearDown of your test case to ensure that it is executed even on failing test runs.
-            </summary>
-            <remarks>You should not call this method directly. Instead, pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:Ranorex.AutomationHelpers.Modules.ReportToPDFModule">
             <summary>
@@ -274,15 +274,6 @@
             A collection of popup watcher helper methods.
             </summary>
         </member>
-        <member name="P:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.Watchers">
-            <summary>
-            Gets the currently active watchers which were started using the <see cref="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StartPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)"/>
-            method and have not been stopped using the <see cref="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StopPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)"/> method, yet.
-            </summary>
-            <value>
-            The currently active watchers created using the <see cref="T:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary"/> class.
-            </value>
-        </member>
         <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StartPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)">
             <summary>
             Waits for a popup window to appear and clicks an element to close the window.
@@ -309,6 +300,15 @@
             <summary>
             Stops all active popup watchers.
             </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.Watchers">
+            <summary>
+            Gets the currently active watchers which were started using the <see cref="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StartPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)"/>
+            method and have not been stopped using the <see cref="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StopPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)"/> method, yet.
+            </summary>
+            <value>
+            The currently active watchers created using the <see cref="T:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary"/> class.
+            </value>
         </member>
         <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.StringLibrary">
             <summary>
