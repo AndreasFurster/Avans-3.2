@@ -185,12 +185,12 @@
           "timeout": 0.0,
           "tasks": [
             {
-              "command": "C:\SmartBear\SoapUI-5.5.0\bin\TestRunner.bat ",
+              "command": "C:/SmartBear/SoapUI-5.5.0/bin/TestRunner.bat",
               "working_directory": "2-ApiTest",
               "timeout": -1.0,
               "arguments": [
 				"-s\"TricentisTestSuite\"",
-				"C:\Users\gocd\Documents\tricentis-soapui-project.xml"
+				"C:/Users/gocd/Documents/tricentis-soapui-project.xml"
 			  ],
               "run_if": "passed",
               "type": "exec"
