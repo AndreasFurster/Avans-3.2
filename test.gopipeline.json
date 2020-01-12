@@ -168,23 +168,23 @@
           "tabs": [
 			{
 			 "name": "test-results",
-              "path": "TestResult/"
+              "path": "ApiTestResults2/"
 			},
             {
               "name": "test-01",
-              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-HappyFlow-0-OK.txt"
+              "path": "ApiTestResults2/TricentisTestSuite-GetPaymentMethodCollection_TestCase-HappyFlow-0-OK.txt"
             },
 			{
               "name": "test-02",
-              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectPassword-0-OK.txt"
+              "path": "ApiTestResults2/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectPassword-0-OK.txt"
             },
 			{
               "name": "test-03",
-              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectUsername-0-OK.txt"
+              "path": "ApiTestResults2/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectUsername-0-OK.txt"
             },
 			{
               "name": "test-04",
-              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-SoapError-0-OK.txt"
+              "path": "ApiTestResults2/TricentisTestSuite-GetPaymentMethodCollection_TestCase-SoapError-0-OK.txt"
             }
           ],
           "resources": [
@@ -195,7 +195,12 @@
               "source": "2-ApiTest/soapui-report",
               "destination": "ApiTestResults",
               "type": "test"
-            }
+            },
+			{
+				"source" : "2-ApiTest/TestResult",
+				"destination": "ApiTestResults2",
+				"type": "test"
+			}
           ],
           "run_instance_count": "0",
           "timeout": 0.0,
@@ -205,10 +210,12 @@
               "working_directory": "2-ApiTest",
               "timeout": -1.0,
               "arguments": [
-				"-s \"TricentisTestSuite\"",
+				"-s", 
+				"TricentisTestSuite",
 				"tricentis-soapui-project.xml",
 				"-a",
-				"-f \"TestResult\""
+				"-f",
+				"TestResult"
 			  ],
               "run_if": "passed",
               "type": "exec"
