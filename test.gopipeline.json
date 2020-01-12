@@ -51,7 +51,9 @@
               "path": "UnitTestResults/ReportGeneratorOutput/index.htm"
             }
           ],
-          "resources": [],
+          "resources": [
+            "neoload"
+          ],
           "artifacts": [
             {
               "source": "1-UnitTest/GeneratedReports/ReportGeneratorOutput",
