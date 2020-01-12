@@ -205,10 +205,10 @@
               "working_directory": "2-ApiTest",
               "timeout": -1.0,
               "arguments": [
-				"-s\"TricentisTestSuite\"",
+				"-s \"TricentisTestSuite\"",
 				"tricentis-soapui-project.xml",
 				"-a",
-				"-f'TestResult'"
+				"-f \"TestResult\""
 			  ],
               "run_if": "passed",
               "type": "exec"
