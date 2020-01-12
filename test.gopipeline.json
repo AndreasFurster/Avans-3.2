@@ -161,6 +161,27 @@
               "type": "exec"
             }
           ]
+        },
+        {
+          "name": "run-gui-tests",
+          "environment_variables": [],
+          "tabs": [],
+          "resources": [
+            "ranorex"
+          ],
+          "artifacts": [],
+          "run_instance_count": "0",
+          "timeout": 0.0,
+          "tasks": [
+            {
+              "command": "DemoWebshop/DemoWebshop/bin/DemoWebshop.exe",
+              "working_directory": "5-GuiTest",
+              "timeout": -1.0,
+              "arguments": [],
+              "run_if": "passed",
+              "type": "exec"
+            }
+          ]
         }
       ]
     }
