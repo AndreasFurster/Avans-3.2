@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoWebshop</name>
+    </assembly>
+    <members>
+        <member name="T:DemoWebshop.AddProduct">
+             <summary>
+            The AddProduct recording.
+             </summary>
+        </member>
+        <member name="F:DemoWebshop.AddProduct.repo">
+            <summary>
+            Holds an instance of the DemoWebshopRepository repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.AddProduct.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.AddProduct.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.AddProduct.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DemoWebshop.AddProduct.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.AddProduct.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DemoWebshop.AddProduct.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.ClearCart">
+             <summary>
+            The ClearCart recording.
+             </summary>
+        </member>
+        <member name="F:DemoWebshop.ClearCart.repo">
+            <summary>
+            Holds an instance of the DemoWebshopRepository repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.ClearCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.ClearCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.ClearCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DemoWebshop.ClearCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.ClearCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DemoWebshop.ClearCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:DemoWebshop.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the DemoWebshopRepository repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DemoWebshop.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DemoWebshop.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.Code_Modules.UserCodeModule1">
+            <summary>
+            Description of UserCodeModule1.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Code_Modules.UserCodeModule1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Code_Modules.UserCodeModule1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:DemoWebshop.DemoWebshopRepository">
+            <summary>
+            The class representing the DemoWebshopRepository element repository.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DemoWebshopRepository element repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.DemoWebshopRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepository.DemoWebShopGoogleChrome">
+            <summary>
+            The DemoWebShopGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.DemoWebshopRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.LogIn">
+            <summary>
+            The LogIn item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.LogInInfo">
+            <summary>
+            The LogIn item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.KaasmetuiensausAthotmailCom">
+            <summary>
+            The KaasmetuiensausAthotmailCom item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.KaasmetuiensausAthotmailComInfo">
+            <summary>
+            The KaasmetuiensausAthotmailCom item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.LogOut">
+            <summary>
+            The LogOut item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.LogOutInfo">
+            <summary>
+            The LogOut item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.SmallSearchterms">
+            <summary>
+            The SmallSearchterms item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.SmallSearchtermsInfo">
+            <summary>
+            The SmallSearchterms item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.TheProductHasBeenAddedToYour">
+            <summary>
+            The TheProductHasBeenAddedToYour item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.TheProductHasBeenAddedToYourInfo">
+            <summary>
+            The TheProductHasBeenAddedToYour item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.ShoppingCart">
+            <summary>
+            The ShoppingCart item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.ShoppingCartInfo">
+            <summary>
+            The ShoppingCart item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.StrongTag40400">
+            <summary>
+            The StrongTag40400 item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.StrongTag40400Info">
+            <summary>
+            The StrongTag40400 item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Smartphone">
+            <summary>
+            The Smartphone item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.SmartphoneInfo">
+            <summary>
+            The Smartphone item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.BlueJeans">
+            <summary>
+            The BlueJeans item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.BlueJeansInfo">
+            <summary>
+            The BlueJeans item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Updatecart">
+            <summary>
+            The Updatecart item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.UpdatecartInfo">
+            <summary>
+            The Updatecart item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.DivTagYourShoppingCartIsE">
+            <summary>
+            The DivTagYourShoppingCartIsE item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.DivTagYourShoppingCartIsEInfo">
+            <summary>
+            The DivTagYourShoppingCartIsE item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.FooterMenuWrapper">
+            <summary>
+            The FooterMenuWrapper item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.FooterMenuWrapperInfo">
+            <summary>
+            The FooterMenuWrapper item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.H1TagSm">
+            <summary>
+            The H1TagSm item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.H1TagSmInfo">
+            <summary>
+            The H1TagSm item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Removefromcart">
+            <summary>
+            The Removefromcart item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.RemovefromcartInfo">
+            <summary>
+            The Removefromcart item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Removefromcart1">
+            <summary>
+            The Removefromcart1 item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.Removefromcart1Info">
+            <summary>
+            The Removefromcart1 item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.ApplicationUnderTestAppFolder.AddToCart">
+            <summary>
+            The AddToCart folder.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder">
+            <summary>
+            The AddToCartFolder folder.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddToCart  folder.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.Addtocart36EnteredQuantity">
+            <summary>
+            The Addtocart36EnteredQuantity item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.Addtocart36EnteredQuantityInfo">
+            <summary>
+            The Addtocart36EnteredQuantity item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.Addtocart43EnteredQuantity">
+            <summary>
+            The Addtocart43EnteredQuantity item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.Addtocart43EnteredQuantityInfo">
+            <summary>
+            The Addtocart43EnteredQuantity item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.AddToCartFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder">
+            <summary>
+            The DemoWebShopGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DemoWebShopGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder.Pane1">
+            <summary>
+            The Pane1 item.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.DemoWebshopRepositoryFolders.DemoWebShopGoogleChromeAppFolder.Pane1Info">
+            <summary>
+            The Pane1 item info.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:DemoWebshop.Login.repo">
+            <summary>
+            Holds an instance of the DemoWebshopRepository repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DemoWebshop.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DemoWebshop.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:DemoWebshop.Logout.repo">
+            <summary>
+            Holds an instance of the DemoWebshopRepository repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DemoWebshop.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DemoWebshop.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:DemoWebshop.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the DemoWebshopRepository repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DemoWebshop.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DemoWebshop.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:DemoWebshop.Recording1.repo">
+            <summary>
+            Holds an instance of the DemoWebshopRepository repository.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DemoWebshop.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DemoWebshop.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DemoWebshop.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DemoWebshop.UserCodeModule1">
+            <summary>
+            Description of UserCodeModule1.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.UserCodeModule1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.UserCodeModule1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:DemoWebshop.UserCodeModule2">
+            <summary>
+            Description of UserCodeModule2.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.UserCodeModule2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:DemoWebshop.UserCodeModule2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
