@@ -167,19 +167,19 @@
           "environment_variables": [],
           "tabs": [
             {
-              "name": "HappyFlow",
+              "name": "result-HappyFlow",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-HappyFlow-0-OK.txt"
             },
 			{
-              "name": "HappyFlow",
+              "name": "result-IncorrectPassword",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectPassword-0-OK.txt"
             },
 			{
-              "name": "HappyFlow",
+              "name": "result-IncorrectUsername",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectUsername-0-OK.txt"
             },
 			{
-              "name": "HappyFlow",
+              "name": "result-SoapError",
               "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-SoapError-0-OK.txt"
             }
           ],
