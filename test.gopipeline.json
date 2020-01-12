@@ -168,19 +168,19 @@
           "tabs": [
             {
               "name": "HappyFlow",
-              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-HappyFlow-0-OK.txt"
+              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-HappyFlow-0-OK.txt"
             },
 			{
               "name": "HappyFlow",
-              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectPassword-0-OK.txt"
+              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectPassword-0-OK.txt"
             },
 			{
               "name": "HappyFlow",
-              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectUsername-0-OK.txt"
+              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-IncorrectUsername-0-OK.txt"
             },
 			{
               "name": "HappyFlow",
-              "path": "/TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-SoapError-0-OK.txt"
+              "path": "TestResult/TricentisTestSuite-GetPaymentMethodCollection_TestCase-SoapError-0-OK.txt"
             }
           ],
           "resources": [
