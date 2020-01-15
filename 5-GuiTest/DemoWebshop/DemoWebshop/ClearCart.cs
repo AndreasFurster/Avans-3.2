@@ -104,8 +104,8 @@ namespace DemoWebshop
             repo.ApplicationUnderTest.Updatecart.Click("89;16");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n    \r\n    \r\nYour Shopping Cart is empty!    \n') on item 'ApplicationUnderTest.DivTagYourShoppingCartIsE'.", repo.ApplicationUnderTest.DivTagYourShoppingCartIsEInfo, new RecordItemIndex(7));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.DivTagYourShoppingCartIsEInfo, "InnerText", "\n    \r\n    \r\nYour Shopping Cart is empty!    \n");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n    \n    \nYour Shopping Cart is empty!    \n') on item 'ApplicationUnderTest.DivTagYourShoppingCartIsE'.", repo.ApplicationUnderTest.DivTagYourShoppingCartIsEInfo, new RecordItemIndex(7));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.DivTagYourShoppingCartIsEInfo, "InnerText", "\n    \n    \nYour Shopping Cart is empty!    \n");
             Delay.Milliseconds(100);
             
         }
