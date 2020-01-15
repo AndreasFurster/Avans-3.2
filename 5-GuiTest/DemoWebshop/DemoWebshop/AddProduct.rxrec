@@ -2026,6 +2026,24 @@ UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
 QB//2Q==
 			</helperscreenshot>
 		</keysequenceitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="17484400-a854-4ede-8f3a-f5f972402933"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c75c9556-d018-4a48-be19-93a7db638e2e"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']/?/?/ul/?/?/a[@innertext='Blue Jeans']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"

@@ -131,30 +131,33 @@ namespace DemoWebshop
             repo.ApplicationUnderTest.SmallSearchterms.PressKeys("blue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BlueJeans1' at 40;13.", repo.ApplicationUnderTest.BlueJeans1Info, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.BlueJeans1'", repo.ApplicationUnderTest.BlueJeans1Info, new ActionTimeout(5000), new RecordItemIndex(13));
+            repo.ApplicationUnderTest.BlueJeans1Info.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BlueJeans1' at 40;13.", repo.ApplicationUnderTest.BlueJeans1Info, new RecordItemIndex(14));
             repo.ApplicationUnderTest.BlueJeans1.Click("40;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfBlueJeans'", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new ActionTimeout(5000), new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfBlueJeans'", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new ActionTimeout(5000), new RecordItemIndex(15));
             repo.ApplicationUnderTest.PictureOfBlueJeansInfo.WaitForExists(5000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(16));
             Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfBlueJeansInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='http://demowebshop.tricentis.com/content/images/thumbs/0000118_blue-jeans_300.jpeg') on item 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='http://demowebshop.tricentis.com/content/images/thumbs/0000118_blue-jeans_300.jpeg') on item 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(17));
             Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfBlueJeansInfo, "Src", "http://demowebshop.tricentis.com/content/images/thumbs/0000118_blue-jeans_300.jpeg");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Add to cart') on item 'ApplicationUnderTest.AddToCart.Button'.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Add to cart') on item 'ApplicationUnderTest.AddToCart.Button'.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(18));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AddToCart.ButtonInfo, "Value", "Add to cart");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Button' at LowerRight.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Button' at LowerRight.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(19));
             repo.ApplicationUnderTest.AddToCart.Button.Click(Location.LowerRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Home' Press with focus on 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Home' Press with focus on 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(20));
             Keyboard.PrepareFocus(repo.ApplicationUnderTest.PictureOfBlueJeans);
             Keyboard.Press(System.Windows.Forms.Keys.Home, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
