@@ -1650,10 +1650,10 @@ CiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="51179d73-4a08-418b-ba6b-714fe2194014"
+			id="c9ff4683-e1a4-4783-86b6-2a410aa41a8b"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]//a[@title&gt;'Show details for Smartpho']/img[@title&gt;'Show details for Smartpho']
+					/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[2]/div[1]/h1[@innertext&gt;'']
 				</path>
 			</info>
 		</keyitem>

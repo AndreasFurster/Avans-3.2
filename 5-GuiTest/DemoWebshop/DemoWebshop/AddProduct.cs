@@ -118,8 +118,8 @@ namespace DemoWebshop
             repo.ApplicationUnderTest.AddToCart.Button.Click("33;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Home' Press with focus on 'ApplicationUnderTest.PictureOfSmartphone'.", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new RecordItemIndex(10));
-            Keyboard.PrepareFocus(repo.ApplicationUnderTest.PictureOfSmartphone);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Home' Press with focus on 'ApplicationUnderTest.H1TagSm'.", repo.ApplicationUnderTest.H1TagSmInfo, new RecordItemIndex(10));
+            Keyboard.PrepareFocus(repo.ApplicationUnderTest.H1TagSm);
             Keyboard.Press(System.Windows.Forms.Keys.Home, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
