@@ -43,7 +43,7 @@
       "environment_variables": [],
       "jobs": [
         {
-          "name": "npm install",
+          "name": "npm_install",
           "environment_variables": [],
           "resources": [
             "windows", "node"
