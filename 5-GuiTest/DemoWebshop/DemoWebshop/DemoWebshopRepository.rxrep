@@ -18,7 +18,7 @@ name="DemoWebshopRepository">
 		id="db975c3b-443e-4487-9e1b-3fc4ab0f40d7"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="b8d92380-0ecf-48f1-8d40-9ea33bca8adb"
+		refimgid="24516956-710a-46a5-919f-9c251df1efbd"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -233,6 +233,46 @@ name="DemoWebshopRepository">
 			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/input[@name='removefromcart']"
 			searchtimeout="30000ms">
 				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[2]/td[1]/input[@name='removefromcart']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="51179d73-4a08-418b-ba6b-714fe2194014"
+			name="PictureOfSmartphone"
+			refimgid="35f87894-7b54-49df-a851-f043aaf9172c"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]/div[1]/div/div/div[1]/a[@title='Show details for Smartphone']/img[@title='Show details for Smartphone']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]//a[@title&gt;'Show details for Smartpho']/img[@title&gt;'Show details for Smartpho']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c75c9556-d018-4a48-be19-93a7db638e2e"
+			name="BlueJeans1"
+			refimgid="af03b49c-dc46-41b6-81b7-35e251ff230b"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/ul/li[2]/a[@innertext='Blue Jeans']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/?/?/ul/?/?/a[@innertext='Blue Jeans']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="c858a4a1-0805-476c-a0ea-b336c71ab33f"
+			name="PictureOfBlueJeans"
+			refimgid="420c4a63-c90a-4e0a-a26e-e826108fc5b7"
+			refpath="/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[1]/div/img[@title='Picture of Blue Jeans']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//form[#'product-details-form']/div/div[1]/div[1]/?/?/img[@title='Picture of Blue Jeans']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="9019b4f7-5d09-450b-9f0e-6f708b2c6025"
+			name="SomeBodyTag"
+			refimgid="0a83dc56-c1c0-4cbf-84d3-c1f1777b6c98"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body
 			</item>
 			<basepath>
 				/dom[@domain='demowebshop.tricentis.com']

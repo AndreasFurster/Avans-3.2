@@ -114,6 +114,10 @@ namespace DemoWebshop
             RepoItemInfo _h1tagsmInfo;
             RepoItemInfo _removefromcartInfo;
             RepoItemInfo _removefromcart1Info;
+            RepoItemInfo _pictureofsmartphoneInfo;
+            RepoItemInfo _bluejeans1Info;
+            RepoItemInfo _pictureofbluejeansInfo;
+            RepoItemInfo _somebodytagInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -139,6 +143,10 @@ namespace DemoWebshop
                 _h1tagsmInfo = new RepoItemInfo(this, "H1TagSm", ".//form[#'product-details-form']/div/div[1]/div[2]/div[1]/h1[@innertext>'']", 30000, null, "c9ff4683-e1a4-4783-86b6-2a410aa41a8b");
                 _removefromcartInfo = new RepoItemInfo(this, "Removefromcart", "body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']", 30000, null, "ec8a24b8-4623-45b2-b223-5de64b0f8475");
                 _removefromcart1Info = new RepoItemInfo(this, "Removefromcart1", "body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[2]/td[1]/input[@name='removefromcart']", 30000, null, "8482310a-4d6b-4e30-ae83-0881d0544078");
+                _pictureofsmartphoneInfo = new RepoItemInfo(this, "PictureOfSmartphone", "body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[3]//a[@title>'Show details for Smartpho']/img[@title>'Show details for Smartpho']", 30000, null, "51179d73-4a08-418b-ba6b-714fe2194014");
+                _bluejeans1Info = new RepoItemInfo(this, "BlueJeans1", "?/?/ul/?/?/a[@innertext='Blue Jeans']", 30000, null, "c75c9556-d018-4a48-be19-93a7db638e2e");
+                _pictureofbluejeansInfo = new RepoItemInfo(this, "PictureOfBlueJeans", ".//form[#'product-details-form']/div/div[1]/div[1]/?/?/img[@title='Picture of Blue Jeans']", 30000, null, "c858a4a1-0805-476c-a0ea-b336c71ab33f");
+                _somebodytagInfo = new RepoItemInfo(this, "SomeBodyTag", "body", 30000, null, "9019b4f7-5d09-450b-9f0e-6f708b2c6025");
             }
 
             /// <summary>
@@ -570,6 +578,102 @@ namespace DemoWebshop
                 get
                 {
                     return _removefromcart1Info;
+                }
+            }
+
+            /// <summary>
+            /// The PictureOfSmartphone item.
+            /// </summary>
+            [RepositoryItem("51179d73-4a08-418b-ba6b-714fe2194014")]
+            public virtual Ranorex.ImgTag PictureOfSmartphone
+            {
+                get
+                {
+                    return _pictureofsmartphoneInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PictureOfSmartphone item info.
+            /// </summary>
+            [RepositoryItemInfo("51179d73-4a08-418b-ba6b-714fe2194014")]
+            public virtual RepoItemInfo PictureOfSmartphoneInfo
+            {
+                get
+                {
+                    return _pictureofsmartphoneInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BlueJeans1 item.
+            /// </summary>
+            [RepositoryItem("c75c9556-d018-4a48-be19-93a7db638e2e")]
+            public virtual Ranorex.ATag BlueJeans1
+            {
+                get
+                {
+                    return _bluejeans1Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BlueJeans1 item info.
+            /// </summary>
+            [RepositoryItemInfo("c75c9556-d018-4a48-be19-93a7db638e2e")]
+            public virtual RepoItemInfo BlueJeans1Info
+            {
+                get
+                {
+                    return _bluejeans1Info;
+                }
+            }
+
+            /// <summary>
+            /// The PictureOfBlueJeans item.
+            /// </summary>
+            [RepositoryItem("c858a4a1-0805-476c-a0ea-b336c71ab33f")]
+            public virtual Ranorex.ImgTag PictureOfBlueJeans
+            {
+                get
+                {
+                    return _pictureofbluejeansInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PictureOfBlueJeans item info.
+            /// </summary>
+            [RepositoryItemInfo("c858a4a1-0805-476c-a0ea-b336c71ab33f")]
+            public virtual RepoItemInfo PictureOfBlueJeansInfo
+            {
+                get
+                {
+                    return _pictureofbluejeansInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeBodyTag item.
+            /// </summary>
+            [RepositoryItem("9019b4f7-5d09-450b-9f0e-6f708b2c6025")]
+            public virtual Ranorex.BodyTag SomeBodyTag
+            {
+                get
+                {
+                    return _somebodytagInfo.CreateAdapter<Ranorex.BodyTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeBodyTag item info.
+            /// </summary>
+            [RepositoryItemInfo("9019b4f7-5d09-450b-9f0e-6f708b2c6025")]
+            public virtual RepoItemInfo SomeBodyTagInfo
+            {
+                get
+                {
+                    return _somebodytagInfo;
                 }
             }
 
