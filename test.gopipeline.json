@@ -43,7 +43,7 @@
       "environment_variables": [],
       "jobs": [
         {
-          "name": "npm_install",
+          "name": "release",
           "environment_variables": [],
           "resources": [
             "windows", "node"
@@ -57,18 +57,7 @@
               "timeout": -1.0,
               "run_if": "passed",
               "type": "exec"
-            }
-          ]
-        },
-        {
-          "name": "release-script",
-          "environment_variables": [],
-          "resources": [
-            "windows", "node"
-          ],
-          "run_instance_count": "0",
-          "timeout": 0.0,
-          "tasks": [
+            },
             {
               "command": "npm run release",
               "working_directory": "8-Release",
