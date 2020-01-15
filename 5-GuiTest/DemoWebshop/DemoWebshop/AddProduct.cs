@@ -79,85 +79,85 @@ namespace DemoWebshop
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SmallSearchterms' at 58;19.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.SmallSearchterms.Click("58;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SmallSearchterms' at 54;10.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.SmallSearchterms.Click("54;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'smartphone{Return}' with focus on 'ApplicationUnderTest.SmallSearchterms'.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.SmallSearchterms.PressKeys("smartphone{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'smartphone' with focus on 'ApplicationUnderTest.SmallSearchterms'.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.SmallSearchterms.PressKeys("smartphone");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Smartphone') on item 'ApplicationUnderTest.Smartphone'.", repo.ApplicationUnderTest.SmartphoneInfo, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.SmartphoneInfo, "InnerText", "Smartphone");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.SmallSearchterms'.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.SmallSearchterms.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfSmartphone'", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new ActionTimeout(5000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.PictureOfSmartphoneInfo.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.PictureOfSmartphone'.", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfSmartphoneInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest' at 685;798.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Self.Click("685;798");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='http://demowebshop.tricentis.com/content/images/thumbs/0000190_smartphone_125.png') on item 'ApplicationUnderTest.PictureOfSmartphone'.", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfSmartphoneInfo, "Src", "http://demowebshop.tricentis.com/content/images/thumbs/0000190_smartphone_125.png");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Smartphone' at 49;9.", repo.ApplicationUnderTest.SmartphoneInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.Smartphone.Click("49;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                Smartphone\n                            ') on item 'ApplicationUnderTest.H1TagSm'.", repo.ApplicationUnderTest.H1TagSmInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                Smartphone\n                            ') on item 'ApplicationUnderTest.H1TagSm'.", repo.ApplicationUnderTest.H1TagSmInfo, new RecordItemIndex(7));
             Validate.AttributeEqual(repo.ApplicationUnderTest.H1TagSmInfo, "InnerText", "\n                                Smartphone\n                            ");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Addtocart43EnteredQuantity' at 23;9.", repo.ApplicationUnderTest.AddToCart.Addtocart43EnteredQuantityInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.AddToCart.Addtocart43EnteredQuantity.Click("23;9");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}4' with focus on 'ApplicationUnderTest.AddToCart.Addtocart43EnteredQuantity'.", repo.ApplicationUnderTest.AddToCart.Addtocart43EnteredQuantityInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.AddToCart.Addtocart43EnteredQuantity.PressKeys("{Back}4");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Button' at 90;21.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.AddToCart.Button.Click("90;21");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.TheProductHasBeenAddedToYour'.", repo.ApplicationUnderTest.TheProductHasBeenAddedToYourInfo, new RecordItemIndex(8));
-            Validate.Exists(repo.ApplicationUnderTest.TheProductHasBeenAddedToYourInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Add to cart') on item 'ApplicationUnderTest.AddToCart.Button'.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(8));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AddToCart.ButtonInfo, "Value", "Add to cart");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SmallSearchterms' at 149;13.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.SmallSearchterms.Click("149;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Button' at 33;10.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.AddToCart.Button.Click("33;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'blue jeans{Return}' with focus on 'ApplicationUnderTest.SmallSearchterms'.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.SmallSearchterms.PressKeys("blue jeans{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Home' Press with focus on 'ApplicationUnderTest.PictureOfSmartphone'.", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new RecordItemIndex(10));
+            Keyboard.PrepareFocus(repo.ApplicationUnderTest.PictureOfSmartphone);
+            Keyboard.Press(System.Windows.Forms.Keys.Home, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Blue Jeans') on item 'ApplicationUnderTest.BlueJeans'.", repo.ApplicationUnderTest.BlueJeansInfo, new RecordItemIndex(11));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.BlueJeansInfo, "InnerText", "Blue Jeans");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SmallSearchterms' at 56;8.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(11));
+            repo.ApplicationUnderTest.SmallSearchterms.Click("56;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'blue' with focus on 'ApplicationUnderTest.SmallSearchterms'.", repo.ApplicationUnderTest.SmallSearchtermsInfo, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.SmallSearchterms.PressKeys("blue");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BlueJeans1' at 40;13.", repo.ApplicationUnderTest.BlueJeans1Info, new RecordItemIndex(13));
+            repo.ApplicationUnderTest.BlueJeans1.Click("40;13");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfBlueJeans'", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new ActionTimeout(5000), new RecordItemIndex(14));
+            repo.ApplicationUnderTest.PictureOfBlueJeansInfo.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(15));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfBlueJeansInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest' at 700;797.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Self.Click("700;797");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                Blue Jeans\n                            ') on item 'ApplicationUnderTest.H1TagSm'.", repo.ApplicationUnderTest.H1TagSmInfo, new RecordItemIndex(13));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.H1TagSmInfo, "InnerText", "\n                                Blue Jeans\n                            ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='http://demowebshop.tricentis.com/content/images/thumbs/0000118_blue-jeans_300.jpeg') on item 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(16));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfBlueJeansInfo, "Src", "http://demowebshop.tricentis.com/content/images/thumbs/0000118_blue-jeans_300.jpeg");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Addtocart36EnteredQuantity' at 23;5.", repo.ApplicationUnderTest.AddToCart.Addtocart36EnteredQuantityInfo, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.AddToCart.Addtocart36EnteredQuantity.Click("23;5");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}4' with focus on 'ApplicationUnderTest.AddToCart.Addtocart36EnteredQuantity'.", repo.ApplicationUnderTest.AddToCart.Addtocart36EnteredQuantityInfo, new RecordItemIndex(15));
-            repo.ApplicationUnderTest.AddToCart.Addtocart36EnteredQuantity.PressKeys("{Back}4");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Button' at 30;6.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.AddToCart.Button.Click("30;6");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.TheProductHasBeenAddedToYour'.", repo.ApplicationUnderTest.TheProductHasBeenAddedToYourInfo, new RecordItemIndex(17));
-            Validate.Exists(repo.ApplicationUnderTest.TheProductHasBeenAddedToYourInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Add to cart') on item 'ApplicationUnderTest.AddToCart.Button'.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(17));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AddToCart.ButtonInfo, "Value", "Add to cart");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ShoppingCart' at 70;5.", repo.ApplicationUnderTest.ShoppingCartInfo, new RecordItemIndex(18));
-            repo.ApplicationUnderTest.ShoppingCart.Click("70;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddToCart.Button' at LowerRight.", repo.ApplicationUnderTest.AddToCart.ButtonInfo, new RecordItemIndex(18));
+            repo.ApplicationUnderTest.AddToCart.Button.Click(Location.LowerRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='404.00') on item 'ApplicationUnderTest.StrongTag40400'.", repo.ApplicationUnderTest.StrongTag40400Info, new RecordItemIndex(19));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.StrongTag40400Info, "InnerText", "404.00");
-            Delay.Milliseconds(100);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Home' Press with focus on 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(19));
+            Keyboard.PrepareFocus(repo.ApplicationUnderTest.PictureOfBlueJeans);
+            Keyboard.Press(System.Windows.Forms.Keys.Home, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
             
         }
 
