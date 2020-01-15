@@ -30,46 +30,6 @@
   ],
   "stages": [
     {
-      "name": "Release",
-      "fetch_materials": true,
-      "never_cleanup_artifacts": false,
-      "clean_working_directory": false,
-      "approval": {
-        "type": "success",
-        "users": [],
-        "roles": [],
-        "allow_only_on_success": false
-      },
-      "environment_variables": [],
-      "jobs": [
-        {
-          "name": "release",
-          "environment_variables": [],
-          "resources": [
-            "windows", "node"
-          ],
-          "run_instance_count": "0",
-          "timeout": 0.0,
-          "tasks": [
-            {
-              "command": "npm install",
-              "working_directory": "8-Release",
-              "timeout": -1.0,
-              "run_if": "passed",
-              "type": "exec"
-            },
-            {
-              "command": "npm run release",
-              "working_directory": "8-Release",
-              "timeout": -1.0,
-              "run_if": "passed",
-              "type": "exec"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Testing",
       "fetch_materials": true,
       "never_cleanup_artifacts": false,
@@ -280,6 +240,47 @@
               "working_directory": "5-GuiTest",
               "timeout": -1.0,
               "arguments": [],
+              "run_if": "passed",
+              "type": "exec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Release",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": false,
+      "approval": {
+        "type": "success",
+        "users": [],
+        "roles": [],
+        "allow_only_on_success": false
+      },
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "release",
+          "environment_variables": [],
+          "resources": [
+            "windows",
+            "node"
+          ],
+          "run_instance_count": "0",
+          "timeout": 0.0,
+          "tasks": [
+            {
+              "command": "npm install",
+              "working_directory": "8-Release",
+              "timeout": -1.0,
+              "run_if": "passed",
+              "type": "exec"
+            },
+            {
+              "command": "npm run release",
+              "working_directory": "8-Release",
+              "timeout": -1.0,
               "run_if": "passed",
               "type": "exec"
             }
