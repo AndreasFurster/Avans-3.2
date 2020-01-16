@@ -91,8 +91,8 @@ namespace DemoWebshop
             repo.ApplicationUnderTest.SmallSearchterms.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfSmartphone'", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new ActionTimeout(5000), new RecordItemIndex(3));
-            repo.ApplicationUnderTest.PictureOfSmartphoneInfo.WaitForExists(5000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfSmartphone'", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new ActionTimeout(30000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.PictureOfSmartphoneInfo.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.PictureOfSmartphone'.", repo.ApplicationUnderTest.PictureOfSmartphoneInfo, new RecordItemIndex(4));
             Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfSmartphoneInfo, "Visible", "True");
@@ -131,15 +131,15 @@ namespace DemoWebshop
             repo.ApplicationUnderTest.SmallSearchterms.PressKeys("blue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.BlueJeans1'", repo.ApplicationUnderTest.BlueJeans1Info, new ActionTimeout(5000), new RecordItemIndex(13));
-            repo.ApplicationUnderTest.BlueJeans1Info.WaitForExists(5000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.BlueJeans1'", repo.ApplicationUnderTest.BlueJeans1Info, new ActionTimeout(30000), new RecordItemIndex(13));
+            repo.ApplicationUnderTest.BlueJeans1Info.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BlueJeans1' at 40;13.", repo.ApplicationUnderTest.BlueJeans1Info, new RecordItemIndex(14));
             repo.ApplicationUnderTest.BlueJeans1.Click("40;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfBlueJeans'", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new ActionTimeout(5000), new RecordItemIndex(15));
-            repo.ApplicationUnderTest.PictureOfBlueJeansInfo.WaitForExists(5000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.PictureOfBlueJeans'", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new ActionTimeout(30000), new RecordItemIndex(15));
+            repo.ApplicationUnderTest.PictureOfBlueJeansInfo.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.PictureOfBlueJeans'.", repo.ApplicationUnderTest.PictureOfBlueJeansInfo, new RecordItemIndex(16));
             Validate.AttributeEqual(repo.ApplicationUnderTest.PictureOfBlueJeansInfo, "Visible", "True");

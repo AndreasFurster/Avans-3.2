@@ -586,7 +586,7 @@ iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 		optional="False"
 		searchpropertyid="4c836cc4-0eb0-4659-a214-c37ddf9eb31c"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -2031,7 +2031,7 @@ QB//2Q==
 		optional="False"
 		searchpropertyid="17484400-a854-4ede-8f3a-f5f972402933"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -2404,7 +2404,7 @@ aKKACiiigAooooA//9k=
 		optional="False"
 		searchpropertyid="88009f4f-1062-4370-b4da-0dd8c96800d1"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>
